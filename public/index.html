@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeVector Product Browser</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Product Browser</h1>
+
+        <div class="top-bar">
+
+            <select id="category">
+                <option value="">All Categories</option>
+                <option>Electronics</option>
+                <option>Fashion</option>
+                <option>Books</option>
+                <option>Sports</option>
+                <option>Furniture</option>
+                <option>Toys</option>
+                <option>Groceries</option>
+            </select>
+
+        </div>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Updated At</th>
+                </tr>
+            </thead>
+
+            <tbody id="productTable">
+
+            </tbody>
+
+        </table>
+
+        <button id="loadMore">
+            Load More
+        </button>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
